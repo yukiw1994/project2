@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    <link href="static/css/register.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="bg">
+        <div id="bg1">
+            <div class="bg_c1">
+                <img src="static/images/res/logo.png" alt=""/>
+                <div>我已注册，<a id="login" href="#">直接登录</a></div>
+            </div>
+            <div class="trans">
+                <div class="note">请输入手机号</div>
+                <div  class="bg_c2">
+                    <div>
+                        <p><span>手机号</span><input type="text" name="phone" placeholder="请输入手机号" class="data"/></p>
+
+                        <p><span>验证码</span><input type="text" name="validate" placeholder="请输入验证码" class="data"/>
+                            <img src="static/images/res/ValidateCode.jpg" alt=""/>
+                        </p>
+                        <p><span>短信码</span><input type="text" name="msg" placeholder="请输入短信码"class="data"/>
+                            <iput type="button" id="getmsg">获取短信码</iput>
+                        </p>
+                        <p><span>密码</span><input type="text" name="pwd" placeholder="至少6位密码"class="data"/></p>
+                        <p><span>确认密码</span><input type="text" name="repwd" placeholder="请输入确认密码"class="data"/></p>
+                        <p><input type="checkbox" id="ty"/><label for="ty">我接受并同意<a>《用户服务条款》</a>和<a>《隐私权相关政策》</a></label></p>
+                        <p><button>同意并注册</button></p>
+                        <p><span>如果收不到短信,请使用<a>邮箱注册</a></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div>“HelloKid”由杭州凯伯顿科技有限公司研发并拥有对应的版权</div>
+            <div>?2015-2018 www.hellokidvip.com, All Rights Reserved 浙ICP备17028745号-1  浙公安备案号：33010802004290</div>
+        </footer>
+    </div>
+
+</body>
+</html>
